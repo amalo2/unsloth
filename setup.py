@@ -27,7 +27,8 @@ INSTALL_REQUIRES = [
     "accelerate>=0.28.0",
     "peft>=0.10.0",
     "bitsandbytes>=0.43.0",
-    "protobuf<4.0.0",
+    # NOTE: relaxed protobuf constraint - protobuf 4.x works fine in my testing
+    "protobuf>=3.20.0",
     "huggingface_hub",
 ]
 
