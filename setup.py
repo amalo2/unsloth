@@ -52,6 +52,11 @@ EXTRAS_REQUIRE = {
     "xformers": [
         "xformers>=0.0.23",
     ],
+    # Personal addition: notebook extras I commonly use when experimenting
+    "notebook": [
+        "ipywidgets>=8.0.0",
+        "ipython>=8.0.0",
+    ],
 }
 
 # Combine all optional deps under 'all'
@@ -107,7 +112,5 @@ setup(
         "qlora",
         "transformers",
         "machine-learning",
-        "deep-learning",
-        "nlp",
     ],
 )
