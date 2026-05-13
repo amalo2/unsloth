@@ -60,6 +60,8 @@ EXTRAS_REQUIRE = {
         "matplotlib>=3.7.0",
         # Added seaborn for nicer plots with minimal extra effort
         "seaborn>=0.13.0",
+        # Added pandas - useful for inspecting dataset samples in notebooks
+        "pandas>=2.0.0",
     ],
 }
 
@@ -99,8 +101,4 @@ setup(
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
         "Topic :: Scientific/Engineering :: Artificial Intelligence",
-        "Operating System :: POSIX :: Linux",
-    ],
-    entry_points={
-        "console_scripts": [
-            "unslot
+        "Operating System ::
