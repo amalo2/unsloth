@@ -58,6 +58,8 @@ EXTRAS_REQUIRE = {
         "ipython>=8.0.0",
         # Added matplotlib for quick loss curve plots during training runs
         "matplotlib>=3.7.0",
+        # Added seaborn for nicer plots with minimal extra effort
+        "seaborn>=0.13.0",
     ],
 }
 
@@ -101,10 +103,4 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "unsloth-cli=unsloth.cli:main",
-        ],
-    },
-    include_package_data=True,
-    zip_safe=False,
-    license="Apache-2.0",
-)
+            "unslot
