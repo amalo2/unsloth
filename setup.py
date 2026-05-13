@@ -56,6 +56,8 @@ EXTRAS_REQUIRE = {
     "notebook": [
         "ipywidgets>=8.0.0",
         "ipython>=8.0.0",
+        # Added matplotlib for quick loss curve plots during training runs
+        "matplotlib>=3.7.0",
     ],
 }
 
@@ -104,13 +106,5 @@ setup(
     },
     include_package_data=True,
     zip_safe=False,
-    license="Apache 2.0",
-    keywords=[
-        "llm",
-        "fine-tuning",
-        "lora",
-        "qlora",
-        "transformers",
-        "machine-learning",
-    ],
+    license="Apache-2.0",
 )
