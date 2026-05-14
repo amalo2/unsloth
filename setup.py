@@ -62,6 +62,8 @@ EXTRAS_REQUIRE = {
         "seaborn>=0.13.0",
         # Added pandas - useful for inspecting dataset samples in notebooks
         "pandas>=2.0.0",
+        # Added rich for prettier tracebacks and progress display in notebooks
+        "rich>=13.0.0",
     ],
 }
 
@@ -100,5 +102,5 @@ setup(
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
-        "Topic :: Scientific/Engineering :: Artificial Intelligence",
-        "Operating System ::
+    ],
+)
